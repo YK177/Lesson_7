@@ -1,0 +1,326 @@
+@font-face {
+    font-family: 'Good Vibes Pro';
+    src: url('../fonts/GoodVibesPro.woff2') format('woff2'), url('../fonts/GoodVibesPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothamPro.woff2') format('woff2'), url('../fonts/GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothamPro-Bold.woff2') format('woff2'), url('../fonts/GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Стили обнуления */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+body {
+    font-family: 'Good Vibes Pro';
+    font-size: 22px;
+    color: #000;
+    line-height: 1;
+}
+
+/* --------------- */
+
+.wrapper {
+    background-color: rgb(134, 216, 241);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.header {
+    padding: 30px;
+    background-color: rgb(150, 243, 247);
+    border-bottom: 2px dashed #000;
+}
+
+.logo {
+    max-width: 130px;
+    padding: 15px;
+    filter: drop-shadow(5px 5px 5px rgb(17, 17, 17));
+    display: block;
+    margin: 0px auto;
+}
+
+.title {
+    font-family: 'Gotham Pro';
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: rgb(190, 7, 7);
+    text-shadow: 5px 5px 5px rgb(17, 17, 17);
+    padding: 20px;
+    margin: 0px 0px 30px 0px;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.menu__list {
+    text-align: center;
+}
+
+.menu__list li {
+    display: inline-block;
+    width: 21%;
+    min-width: 180px;
+    margin: 0px 1% 20px 1%;
+    font-size: 0;
+    text-align: center;
+}
+
+.menu__link {
+    display: block;
+    font-size: 22px;
+    text-transform: capitalize;
+    border: 3px solid rgb(248, 6, 6);
+    line-height: 120%;
+    padding: 5px 0;
+    background-color: rgb(250, 246, 15);
+    border-radius: 10px;
+}
+
+.main {
+    background-color: rgb(133, 248, 177);
+}
+
+.block {
+    border-bottom: 2px dashed #000;
+    padding: 20px;
+}
+
+.block__title {
+    font-family: 'Gotham Pro';
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgb(190, 7, 7);
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 10px rgb(17, 17, 17);
+    margin: 0px 0px 20px 0px;
+}
+
+.block__inner {
+    max-width: 880px;
+    margin: 0px auto 10px;
+    padding: 20px 20px 10px 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(189, 13, 224);
+    line-height: 120%;
+}
+
+.block__inner span {
+    font-family: 'Gotham Pro';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.block__code {
+    font-family: 'Gotham Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    padding: 10px 30px;
+    margin: 0px 0px 10px 0px;
+    color: rgb(190, 7, 7);
+}
+
+.block__code span {
+    color: #000;
+}
+
+.button {
+    display: block;
+    max-width: 250px;
+    margin: 0px auto;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 120%;
+    padding: 10px 15px;
+    border: 3px solid rgb(248, 6, 6);
+    background-color: rgb(250, 246, 15);
+    border-radius: 35px 10px 35px 10px;
+}
+
+.button span {
+    background: url('../img/double-up.png') left / 20px no-repeat, url('../img/double-up.png') right / 20px no-repeat;
+    padding: 0 25px;
+}
+
+.color-1 {
+    background-color: rgb(240, 238, 130);
+}
+
+.color-2 {
+    background-color: rgba(240, 238, 130, 0.4);
+}
+
+.color-3 {
+    background-color: rgb(240, 238, 130);
+    opacity: 0.4;
+}
+
+.image {
+    background-image: url(../img/image.jpeg);
+}
+
+.repeat-1 {
+    background-image: url(../img/pattern.jpg);
+}
+
+.repeat-2 {
+    background-image: url(../img/pattern.jpg);
+    background-repeat: repeat-x;
+}
+
+.repeat-3 {
+    background-image: url(../img/pattern.jpg);
+    background-repeat: repeat-y;
+}
+
+.gradient-1 {
+    background-image: linear-gradient(to right, #b8e1fc 0%, #a9d2f3 10%, #90bae4 25%, #90bcea 37%, #90bff0 50%, #6ba8e5 51%, #a2daf5 83%, #bdf3fd 100%);
+}
+
+.gradient-2 {
+    background-image: radial-gradient(ellipse at center, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+}
+
+.position-1 {
+    background: rgb(240, 238, 130) url('../img/logo.png') 0 0 no-repeat;
+    /* background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 0; */
+}
+
+.position-2 {
+    background: rgb(240, 238, 130) url('../img/logo.png') right bottom no-repeat;
+}
+
+.position-3 {
+    background: rgb(240, 238, 130) url('../img/logo.png') 200px 50px no-repeat;
+}
+
+.position-4 {
+    background: rgb(240, 238, 130) url('../img/logo.png') 50% 5% no-repeat;
+}
+
+.position-5 {
+    background: rgb(240, 238, 130) url('../img/logo.png') 50px no-repeat;
+}
+
+.size-1 {
+    background: rgb(240, 238, 130) url('../img/winter-2560x1440-001.jpg') 0 0 / auto auto no-repeat;
+}
+
+.size-2 {
+    background: rgb(240, 238, 130) url('../img/winter-2560x1440-001.jpg') center / 500px no-repeat;
+}
+
+.size-3 {
+    background: rgb(240, 238, 130) url('../img/winter-2560x1440-001.jpg') 0 0 / 100% no-repeat;
+}
+
+.size-4 {
+    background: rgb(240, 238, 130) url('../img/winter-2560x1440-001.jpg') 0 0 / contain no-repeat;
+}
+
+.size-5 {
+    background: rgb(240, 238, 130) url('../img/winter-2560x1440-001.jpg') center / cover no-repeat;
+}
+
+.attachment-1 {
+    background: rgb(240, 238, 130) url('../img/winter-2560x1440-001.jpg') center / cover no-repeat scroll;
+}
+
+.attachment-2 {
+    background: rgb(240, 238, 130) url('../img/winter-2560x1440-001.jpg') center / cover no-repeat fixed;
+}
+
+.example-1 {
+    background: url('../img/double-up.png') 0 0 / 20px repeat-x, 
+                url('../img/double-up.png') 0 bottom / 20px repeat-x, url('../img/double-up.png') 0 0 / 20px repeat-y, 
+                url('../img/double-up.png') right / 20px repeat-y, 
+                url('../img/logo.png') left / 100px no-repeat,
+                url('../img/logo.png') center / 100px no-repeat,
+                url('../img/logo.png') right / 100px no-repeat,
+                url('../img/winter-2560x1440-001.jpg') center / cover no-repeat fixed;
+}
+
+.footer {
+    height: 300px;
+    padding: 150px 30px 30px;
+    background: url('../img/footer-skyline-background.jpg') center / cover no-repeat;
+}
+
+.footer a {
+    display: block;
+    max-width: 330px;
+    border-radius: 10px;
+    margin: 0px auto 40px;
+    font-family: 'Gotham Pro';
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    line-height: 120%;
+    padding: 10px 0;
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #fefcea 0%,#f1da36 30%,#f1da36 66%,#fefcea 100%);
+}
+
+.footer a span {
+    padding: 0 40px;
+    background: url('../img/like-icon-png-10.jpg') left / 30px no-repeat, url('../img/like-icon-png-10.jpg') right / 30px no-repeat;
+}
+
+.footer p {
+    text-align: right;
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson_7</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <img id="logo" src="img/logo.png" alt="logo" class="logo">
+                <h1 class="title">BACKGROUND</h1>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li><a href="#color" class="menu__link">background-color</a></li>
+                        <li><a href="#image" class="menu__link">background-image</a></li>
+                        <li><a href="#repeat" class="menu__link">background-repeat</a></li>
+                        <li><a href="#gradient" class="menu__link">gradient</a></li>
+                        <li><a href="#position" class="menu__link">background-position</a></li>
+                        <li><a href="#size" class="menu__link">background-size</a></li>
+                        <li><a href="#attachment" class="menu__link">background-attachment</a></li>
+                        <li><a href="#example" class="menu__link">примеры</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="main">
+                <div class="block">
+                    <h2 id="color" class="block__title">background-color</h2>
+                    <div class="block__inner color-1">
+                        <p><span>В этом блоке фон задан свойством background-color. </span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam.</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background-color: rgb(240, 238, 130);</p>
+                    <div class="block__inner color-2">
+                        <p><span>В этом блоке фон задан свойством background-color с альфа-каналом.</span> <br>Lorem
+                            ipsum dolor sit amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus
+                            tempora cumque odio nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio
+                            accusantium iusto sed ipsam.</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background-color: rgba(240, 238, 130, 0.4);
+                    </p>
+                    <div class="block__inner color-3">
+                        <p><span>Здесь помимо background-color применено свойство opacity. Как видно, вместе с фоном
+                                стал прозрачен и текст, т.к. opacity действует на все содержимое блока.</span><br> Lorem
+                            ipsum dolor sit amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus
+                            tempora cumque odio nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio
+                            accusantium iusto sed ipsam.</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background-color: rgb(240, 238,
+                        130);<br>opacity: 0.4;</p>
+                    <a href="#logo" class="button"><span>наверх</span></a>
+                </div>
+                <div class="block">
+                    <h2 id="image" class="block__title">background-image</h2>
+                    <div class="block__inner image">
+                        <p><span>Ничего особенного. Фон блока - картинка</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem!</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background-image: url(../img/image.jpeg);</p>
+                    <a href="#logo" class="button"><span>наверх</span></a>
+                </div>
+                <div class="block">
+                    <h2 id="repeat" class="block__title">background-repeat</h2>
+                    <div class="block__inner repeat-1">
+                        <p><span>Используем свойство background-repeat</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem! Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Dolores nesciunt consectetur eius facilis deserunt!
+                            Temporibus non deserunt illo voluptate laudantium quasi, nam ullam. Soluta delectus
+                            necessitatibus voluptatem. Incidunt, recusandae quaerat. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Illum quo ut est aliquid asperiores hic accusamus alias saepe?
+                            Rem maiores nulla beatae optio quam voluptatum rerum eaque ipsam eum id. Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Reprehenderit quae quo libero ex veritatis. Magnam
+                            iusto error debitis, in explicabo perferendis dolorum velit vero sint blanditiis cum
+                            molestiae veniam a ex iure libero laborum distinctio modi vitae nostrum maiores cumque
+                            expedita adipisci? Laborum qui necessitatibus voluptatibus hic consequuntur tenetur iure
+                            accusamus id, fugiat, sequi sed illo totam neque, sapiente repellat earum dolore? Aperiam
+                            nostrum dolores est! Dicta quia inventore quod pariatur voluptatum repellendus sint quo
+                            cupiditate nemo. Fugit vel eligendi consectetur nemo, consequatur voluptatem est repudiandae
+                            autem illum earum illo. Animi reiciendis nemo dicta labore at. Rem, voluptates nostrum!
+                            Deleniti!</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background-image: url(../img/pattern.jpg);<br>
+                        background-repeat: repeat; <span>- это свойство прописывать в файле css не нужно, т.к. оно
+                            является свойством по умолчанию.</spa>
+                    </p>
+                    <div class="block__inner repeat-2">
+                        <p><span>Паттерн повторяется по оси x (по горизонтали). Для этого используем значение
+                                repeat-x</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem! Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Aut unde voluptate ex rem cumque tempore nostrum
+                            temporibus eveniet, libero consequatur est officia veritatis! Ratione, modi quae sapiente
+                            veniam voluptatibus assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Rerum repellendus natus adipisci amet qui voluptas magni ipsum ab, perspiciatis nesciunt
+                            dolor ex distinctio reprehenderit iusto blanditiis tempora dignissimos illo sed. Lorem ipsum
+                            dolor, sit amet consectetur adipisicing elit. Amet atque praesentium aliquam magni repellat
+                            nemo minima illum eaque qui, quia, sunt distinctio rem delectus? Nobis, doloribus. Rem
+                            corrupti minus fugiat alias debitis a tempora aspernatur est aliquam non, voluptatem dolores
+                            dolorem perferendis exercitationem, ipsa distinctio odit eveniet voluptatibus quia id
+                            accusamus. Reprehenderit consectetur necessitatibus, autem, nam quam dolorem fugit culpa ea
+                            quos nulla quasi quis aliquid. Vel nam voluptatibus accusamus fuga sed sunt iste unde illum
+                            blanditiis dolorem magni quis aliquam totam eius, pariatur mollitia earum aperiam, facilis
+                            reiciendis? Ducimus perferendis, corrupti atque quas ea distinctio a rerum natus odit? Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Ipsa eveniet tenetur culpa minus ducimus
+                            et, facilis cum? Qui maiores nihil temporibus repellat sed fugiat. Ratione amet inventore
+                            blanditiis excepturi numquam esse minima odit, quae perferendis officia vero molestias
+                            voluptatem. Consequuntur commodi a aperiam aut blanditiis tempore rem repellendus deserunt
+                            quaerat. Minima maxime illo itaque illum nemo minus hic quae dolores, repellat vero?
+                            Consectetur iste at illo facilis dignissimos quas perspiciatis, veniam quod, aut assumenda
+                            autem natus doloremque qui eius cumque, saepe praesentium laudantium voluptatum quibusdam
+                            vero velit eum tempora quidem! Eveniet inventore consectetur quisquam aspernatur placeat
+                            molestias optio dolor illum?</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background-image: url(../img/pattern.jpg);
+                        <br>
+                        background-repeat: repeat-x;
+                    </p>
+                    <div class="block__inner repeat-3">
+                        <p><span>Паттерн повторяется по оси y (по вертикали). Для этого используем значение
+                                repeat-y</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem! Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Dolores nesciunt consectetur eius facilis deserunt!
+                            Temporibus non deserunt illo voluptate laudantium quasi, nam ullam. Soluta delectus
+                            necessitatibus voluptatem. Incidunt, recusandae quaerat. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Illum quo ut est aliquid asperiores hic accusamus alias saepe?
+                            Rem maiores nulla beatae optio quam voluptatum rerum eaque ipsam eum id. Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Reprehenderit quae quo libero ex veritatis. Magnam
+                            iusto error debitis, in explicabo perferendis dolorum velit vero sint blanditiis cum
+                            molestiae veniam a ex iure libero laborum distinctio modi vitae nostrum maiores cumque
+                            expedita adipisci? Laborum qui necessitatibus voluptatibus hic consequuntur tenetur iure
+                            accusamus id, fugiat, sequi sed illo totam neque, sapiente repellat earum dolore? Aperiam
+                            nostrum dolores est! Dicta quia inventore quod pariatur voluptatum repellendus sint quo
+                            cupiditate nemo. Fugit vel eligendi consectetur nemo, consequatur voluptatem est repudiandae
+                            autem illum earum illo. Animi reiciendis nemo dicta labore at. Rem, voluptates nostrum!
+                            Deleniti!</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background-image: url(../img/pattern.jpg);
+                        <br>
+                        background-repeat: repeat-y;
+                    </p>
+                    <a href="#logo" class="button"><span>наверх</span></a>
+                </div>
+                <div class="block">
+                    <h2 id="gradient" class="block__title">gradient</h2>
+                    <div class="block__inner gradient-1">
+                        <p><span>Как-то так.</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem!</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background-image: linear-gradient(to right,
+                        #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd
+                        100%);</p>
+                    <div class="block__inner gradient-2">
+                        <p><span>Ну, или так...</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem!</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background-image: radial-gradient(ellipse at
+                        center, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%);</p>
+                    <a href="#logo" class="button"><span>наверх</span></a>
+                </div>
+                <div class="block">
+                    <h2 id="position" class="block__title">background-position</h2>
+                    <div class="block__inner position-1">
+                        <p><span>Значание background-position по умолчанию - 0 0. Так фоновое изображение займет верхний
+                                левый угол блока. Не забываем задать свойство no-repeat! </span><br>Lorem ipsum dolor
+                            sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem! Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Deserunt eveniet aliquam accusamus officia. Quidem sit
+                            doloribus natus velit, aspernatur ad possimus deserunt ipsum atque temporibus reiciendis
+                            magni quae sed ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                            dolores ratione exercitationem odio impedit, vitae neque eos eveniet pariatur placeat quas
+                            corrupti ipsam quasi! Officia eaque adipisci soluta nam sed?</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span><br>background-color: rgb(240, 238, 130);
+                        <br>background-image: url(../img/logo.png); <br>
+                        background-repeat: no-repeat;<br>
+                        background-position: 0 0;<br><span>Универсальная запись:</span><br> background:
+                        rgb(240, 238, 130) url('../img/logo.png') 0 0 no-repeat;
+                    </p>
+                    <div class="block__inner position-2">
+                        <p><span>Также позицию фонового изображения можно задать с помощью словесной записи: top,
+                                bottom, left, right, center.</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem! Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Deserunt eveniet aliquam accusamus officia. Quidem sit
+                            doloribus natus velit, aspernatur ad possimus deserunt ipsum atque temporibus reiciendis
+                            magni quae sed ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                            dolores ratione exercitationem odio impedit, vitae neque eos eveniet pariatur placeat quas
+                            corrupti ipsam quasi! Officia eaque adipisci soluta nam sed?</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/logo.png') right bottom no-repeat;</p>
+                    <div class="block__inner position-3">
+                        <p><span>Позиционирование изображения с помощью цифровой записи.</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem! Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Deserunt eveniet aliquam accusamus officia. Quidem sit
+                            doloribus natus velit, aspernatur ad possimus deserunt ipsum atque temporibus reiciendis
+                            magni quae sed ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                            dolores ratione exercitationem odio impedit, vitae neque eos eveniet pariatur placeat quas
+                            corrupti ipsam quasi! Officia eaque adipisci soluta nam sed?</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/logo.png') 200px 300px no-repeat;</p>
+                    <div class="block__inner position-4">
+                        <p><span>Позиционирование изображения с помощью процентной записи. Первое число - процент от
+                                ширины блока, второе - от высоты.</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem! Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Deserunt eveniet aliquam accusamus officia. Quidem sit
+                            doloribus natus velit, aspernatur ad possimus deserunt ipsum atque temporibus reiciendis
+                            magni quae sed ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                            dolores ratione exercitationem odio impedit, vitae neque eos eveniet pariatur placeat quas
+                            corrupti ipsam quasi! Officia eaque adipisci soluta nam sed?</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/logo.png') 50% 5% no-repeat;</p>
+                    <div class="block__inner position-5">
+                        <p><span>Если указать значение только по оси х, то второе значение автоматически
+                                center.</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem! Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Deserunt eveniet aliquam accusamus officia. Quidem sit
+                            doloribus natus velit, aspernatur ad possimus deserunt ipsum atque temporibus reiciendis
+                            magni quae sed ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                            dolores ratione exercitationem odio impedit, vitae neque eos eveniet pariatur placeat quas
+                            corrupti ipsam quasi! Officia eaque adipisci soluta nam sed?</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/logo.png') 50px no-repeat;</p>
+                    <a href="#logo" class="button"><span>наверх</span></a>
+                </div>
+                <div class="block">
+                    <h2 id="size" class="block__title">background-size</h2>
+                    <div class="block__inner size-1">
+                        <p><span>Значение по умолчанию - auto auto. Намеренно ставим на фон крупное изображение
+                                2560х1440. Не задав фону размер, мы увидим только ту часть изображения, которую вмещает
+                                в себя блок в соответствии со своими размерами. В универсальной записи размер фона
+                                указывается после position через /</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem!</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/winter-2560x1440-001.jpg') 0 0 / auto auto no-repeat;</p>
+                    <div class="block__inner size-2">
+                        <p><span>Зададим ширину изображения в 500px и позиционируем его по центру.</span><br>Lorem ipsum
+                            dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem!</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/winter-2560x1440-001.jpg') center / 500px no-repeat;</p>
+                    <div class="block__inner size-3">
+                        <p><span>Заполним всю ширину блока, задав ширину изображения 100%</span><br>Lorem ipsum dolor
+                            sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem!</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/winter-2560x1440-001.jpg') center / 100% no-repeat;</p>
+                    <div class="block__inner size-4">
+                        <p><span>Если использовать значение contain, то изображение целиком заполнит блок по меньшей
+                                стороне.</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem!</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/winter-2560x1440-001.jpg') 0 0 / contain no-repeat;</p>
+                    <div class="block__inner size-5">
+                        <p><span>Значение cover масштабирует изображение таким образом, что оно полностью заполняет
+                                блок. Чтобы пользователь мог видеть какой-то конкретный участок изображения, используем
+                                position.</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem!</p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/winter-2560x1440-001.jpg') center / cover no-repeat;</p>
+                    <a href="#logo" class="button"><span>наверх</span></a>
+                </div>
+                <div class="block">
+                    <h2 id="attachment" class="block__title">background-attachment</h2>
+                    <div class="block__inner attachment-1">
+                        <p><span>Background-attachment управляет положением изображения при скролле страницы. Значание
+                                по умолчанию - scroll.</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem! </p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/winter-2560x1440-001.jpg') center / cover no-repeat scroll;</p>
+                    <div class="block__inner attachment-2">
+                        <p><span>При значении fixed изображение не движется при скролле страницы.</span><br>Lorem ipsum
+                            dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, hic. Commodi quo
+                            dolores et doloribus deleniti quos amet, repudiandae nostrum voluptatum inventore ipsa
+                            asperiores dignissimos, animi reprehenderit perferendis, neque quia. Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Laudantium fugiat, corporis quae temporibus ipsum odio
+                            dolor magni delectus enim numquam vel aut alias doloribus illum nobis. Saepe consequuntur
+                            iure doloribus repellendus itaque. Iusto tempore aliquid ea quis nemo, quibusdam laudantium
+                            voluptas minima rerum qui enim facilis! Maiores dicta quos aliquam deserunt corporis aperiam
+                            quia unde. Animi quia delectus numquam molestiae veniam nam esse dolorum velit quidem.
+                            Eveniet accusamus quas a nihil dolor optio nisi voluptas ipsam vel maiores deleniti itaque
+                            minima odit mollitia unde, non dignissimos vitae facilis, consequatur libero beatae.
+                            Adipisci dolore quo in velit cumque voluptas numquam. Reprehenderit! </p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: rgb(240, 238, 130)
+                        url('../img/winter-2560x1440-001.jpg') center / cover no-repeat fixed;</p>
+                    <a href="#logo" class="button"><span>наверх</span></a>
+                </div>
+                <div class="block">
+                    <h2 id="example" class="block__title">пример</h2>
+                    <div class="block__inner example-1">
+                        <p><span>Сборная солянка.</span><br>Lorem ipsum dolor sit
+                            amet consectetur, adipisicing elit. Ipsa aperiam, nulla necessitatibus tempora cumque odio
+                            nisi rem tenetur soluta, ut ad eos. Tempora nobis, ut distinctio accusantium iusto sed
+                            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quas, beatae quis
+                            exercitationem consectetur similique sunt corporis maiores natus voluptatem, repellendus
+                            consequuntur vitae harum corrupti facilis fugit eos tenetur autem! </p>
+                    </div>
+                    <p class="block__code"><span>Запись в css:</span> <br>background: url('../img/double-up.png') 0 0 / 20px repeat-x, <br>url('../img/double-up.png') 0 bottom / 20px repeat-x,<br> url('../img/double-up.png') 0 0 / 20px repeat-y,<br>url('../img/double-up.png') right / 20px repeat-y,<br>url('../img/logo.png') left / 100px no-repeat,<br>url('../img/logo.png') center / 100px no-repeat,<br>url('../img/logo.png') right / 100px no-repeat,<br>url('../img/winter-2560x1440-001.jpg') center / cover no-repeat fixed;</p>
+                    <a href="#logo" class="button"><span>наверх</span></a>
+                </div>
+            </main>
+            <footer class="footer">
+                <a href="#"><span>subscribe now</span></a>
+                <p>&copy;Все права защищены.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
