@@ -296,16 +296,31 @@ body {
 }
 
 .footer {
-    height: 300px;
-    padding: 150px 30px 30px;
+    height: 450px;
+    padding: 30px;
     background: url('../img/footer-skyline-background.jpg') center / cover no-repeat;
+}
+
+.footer__list {
+    padding: 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+.footer__list li {
+    line-height: 120%;
+    padding: 5px 0;
+    }
+
+.footer__list li span {
+    padding: 0px 0px 0px 30px;
+    background: url('../img/like-icon-png-10.jpg') left / 25px no-repeat;
 }
 
 .footer a {
     display: block;
     max-width: 330px;
     border-radius: 10px;
-    margin: 0px auto 40px;
+    margin: 0px auto 20px;
     font-family: 'Gotham Pro';
     font-weight: 700;
     text-align: center;
@@ -322,5 +337,6 @@ body {
 }
 
 .footer p {
+    padding: 0px 20px;
     text-align: right;
 }
